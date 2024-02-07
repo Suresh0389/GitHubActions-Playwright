@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jan 30 18:08:53 IST 2024","Tue Jan 30 18:09:20 IST 2024","27198","","MoreValidations.spec.js","","","","Popup Validations",""
+"skipped","Tue Jan 30 18:07:48 IST 2024","Tue Jan 30 18:07:48 IST 2024","0","","ClientAppPO.spec.js","","","","Client App login for IPHONE 13 PRO",""
+"skipped","Tue Jan 30 18:07:48 IST 2024","Tue Jan 30 18:07:48 IST 2024","2","","ClientAppPO.spec.js","","","","Client App login for ADIDAS ORIGINAL",""
+"passed","Tue Jan 30 18:07:49 IST 2024","Tue Jan 30 18:08:17 IST 2024","27426","","UIBasicstest.spec.js","","","","Browser Context Test",""
+"passed","Tue Jan 30 18:08:17 IST 2024","Tue Jan 30 18:08:38 IST 2024","21071","","UIBasicstest.spec.js","","","","UI Controls",""
+"passed","Tue Jan 30 18:08:38 IST 2024","Tue Jan 30 18:08:50 IST 2024","12370","","UIBasicstest.spec.js","","","","Child Tab Handling",""
+"passed","Tue Jan 30 18:09:02 IST 2024","Tue Jan 30 18:09:29 IST 2024","26400","","ClientApp.spec.js","","","","Client App login",""

@@ -1,0 +1,22 @@
+{
+  "name": "playwrightautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Regression" : "npx playwright test",
+    "webTests" : "npx playwright test --grep @Web",
+    "APITests" : "npx playwright test --grep @API",
+    "EdgeNewConfig" : "npx playwright test --config playwright.config1.js --project=Edge"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.1",
+    "@types/node": "^20.11.6",
+    "allure-commandline": "^2.26.0",
+    "allure-playwright": "^2.11.1"
+  }
+}
