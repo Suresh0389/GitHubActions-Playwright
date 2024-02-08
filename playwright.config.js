@@ -14,7 +14,7 @@ module.exports = defineConfig({
  
   use: {
     browserName : 'chromium',
-    headless : false,
+    headless : true,
     trace : 'retain-on-failure',
     screenshot : 'only-on-failure',
     // video : 'retain-on-failure',
