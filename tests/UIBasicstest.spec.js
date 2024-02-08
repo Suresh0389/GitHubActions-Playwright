@@ -51,7 +51,7 @@ test('UI Controls', async ({page})=>
     await expect(radioButton).toBeChecked();
     expect(await radioButton.isChecked()).toBeTruthy();
 
-    await page.pause()
+    // await page.pause()
     console.log(await radioButton.isChecked());
     // General PopUp
     await popUp.click();

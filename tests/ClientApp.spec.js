@@ -29,6 +29,7 @@ test('Client App login', async ({page})=>
     }
     await cartBtn.click();
     await page.locator('.cart').waitFor();
+    await page.waitForTimeout(2000);
     const bool = await page.locator("h3:has-text('ADIDAS ORIGINAL')").isVisible();
     await expect(bool).toBeTruthy();
     await page.locator("button:has-text('Checkout')").click();
